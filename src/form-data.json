@@ -6,7 +6,8 @@
       "contentType": "firstname",
       "label": "Prénom",
       "autocomplete": "given-name",
-      "placeholder": "Camille"
+      "placeholder": "Camille",
+      "value": ""
     },
     {
       "key": "lastname",
@@ -14,7 +15,8 @@
       "contentType": "lastname",
       "label": "Nom",
       "autocomplete": "family-name",
-      "placeholder": "Dupont"
+      "placeholder": "Dupont",
+      "value": ""
     },
     {
       "key": "birthday",
@@ -24,7 +26,8 @@
       "autocomplete": "birthday",
       "pattern": "^([0][1-9]|[1-2][0-9]|30|31)\/([0][1-9]|10|11|12)\/(19[0-9][0-9]|20[0-1][0-9]|2020)",
       "maxlength": 10,
-      "placeholder": "01/01/1970"
+      "placeholder": "01/01/1970",
+      "value": ""
     }
   ],
   [
@@ -34,7 +37,8 @@
       "contentType": "cityofbirth",
       "label": "Lieu de naissance",
       "autocomplete": "off",
-      "placeholder": "Paris"
+      "placeholder": "Paris",
+      "value": ""
     },
     {
       "key": "address",
@@ -42,7 +46,8 @@
       "contentType": "address",
       "label": "Adresse",
       "autocomplete": "adress-line1",
-      "placeholder": "999 avenue de France"
+      "placeholder": "999 avenue de France",
+      "value": ""
     },
     {
       "key": "city",
@@ -50,7 +55,8 @@
       "contentType": "city",
       "label": "Ville",
       "autocomplete": "address-level2",
-      "placeholder": "Paris"
+      "placeholder": "Paris",
+      "value": ""
     },
     {
       "key": "zipcode",
@@ -64,7 +70,8 @@
       "min": 1000,
       "max": 99999,
       "minlength":4,
-      "maxlength":5
+      "maxlength":5,
+      "value": ""
     }
   ],
   [

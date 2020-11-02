@@ -31,6 +31,7 @@ const createFormGroup = ({
   pattern,
   placeholder = '',
   type = 'text',
+  value,
 }) => {
   const formGroup = createElement('div', { className: 'form-group' })
   const labelAttrs = {
@@ -56,6 +57,7 @@ const createFormGroup = ({
     placeholder,
     required: true,
     type,
+    value,
   }
 
   const input = createElement('input', inputAttrs)

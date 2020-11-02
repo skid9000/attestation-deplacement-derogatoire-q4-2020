@@ -11,25 +11,15 @@ npm i
 npm start
 ```
 
-## Générer et tester le code de production
+### Pour éditer le PDF de référence
 
-### Tester le code de production en local
+Go to : src/certificate.pdf
 
-#### Générer le code de production pour tester que le build fonctionne en entier
+### Pour pré-remplir le formulaire
 
-```console
-npm run build:dev
-```
+Go to : src/form-data.json
 
-#### Tester le code de production en local
-
-```console
-npx serve dist
-```
-
-Et visiter http://localhost:5000
-
-Le code à déployer sera le contenu du dossier `dist`
+(Attention, il faudra redémarrer le projet en cas d'edit.)
 
 ## Crédits
 
